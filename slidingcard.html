@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card-box{
+            display: flex;
+        }
+        .box{
+            display: flex;
+            width: 100%;
+            gap: 10px;
+        }
+        .img-box img{
+            width: 100%;
+            margin-top: 80px;
+        }
+        .box:hover img{
+            transform: rotate(30deg);
+            width: 100%;
+            transition: 0.5s ease;
+        }
+        .img-box{
+            background: wheat;
+            padding: 20px 220px;
+            align-items: center;
+            z-index: 5;
+            border: 2px solid black;
+            width: 45%;
+           
+            cursor: pointer;
+        }
+        .box:hover .img-box{
+            padding: 20px 20px;
+            transition: 0.5s;
+        }
+        .info-box{
+            background: royalblue;
+            padding: 10px 20px;
+            line-height: 30px;
+            margin-left: -400px;
+            color: white;
+            position: relative;
+
+        }
+        .box:hover .info-box{
+            margin-left: 0px;
+            transition: 0.5s ease;
+        }
+        .size{
+            text-transform: uppercase;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            font-weight: 900;
+        }
+        .size-button{
+            font-size: 15px;
+            border: 2px solid lightblue;
+            padding: 10px 15px;
+            color: lightcyan;
+            font-weight: 900;
+            cursor: pointer;
+            background: transparent;
+        }
+        .rate1{
+            font-size: 25px;
+        }
+        .buy{
+            text-transform: capitalize;
+            font-size: 15px;
+            font-weight: 900;
+            padding: 10px 20px;
+            background: white;
+            color: royalblue;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-box">
+    <div class="box">
+        <div class="img-box">
+    <img src="shoes.png" alt="">
+</div>
+    <div class="info-box">
+    <h1 class="name">NIKE AIR MAX</h1>
+    <p class="info">Men's Shoe</p>
+    <h3 class="details">Product Details</h3>
+    <p class="product-details">Lorem ipsum dolor sit amet consectetur adipisicing.<br>
+    Facere dolores rem sit distinctio, porro molestiae.</p>
+    <p class="size">size</p>
+    <button class="size-button">36</button>
+    <button class="size-button">38</button>
+    <button class="size-button">40</button>
+    <button class="size-button">42</button>
+    <button class="size-button">44</button>
+    <h1 class="rate"><sup>$</sup>199 <span class="rate1">.99</span> <button class="buy">buy now</button></h1>
+</div>
+</div>
+<div class="box">
+    <div class="img-box">
+<img src="shoes.png" alt="">
+</div>
+<div class="info-box">
+<h1 class="name">NIKE AIR MAX</h1>
+<p class="info">Men's Shoe</p>
+<h3 class="details">Product Details</h3>
+<p class="product-details">Lorem ipsum dolor sit amet consectetur adipisicing.<br>
+Facere dolores rem sit distinctio, porro molestiae.</p>
+<p class="size">size</p>
+<button class="size-button">36</button>
+<button class="size-button">38</button>
+<button class="size-button">40</button>
+<button class="size-button">42</button>
+<button class="size-button">44</button>
+<h1 class="rate"><sup>$</sup>199 <span class="rate1">.99</span> <button class="buy">buy now</button></h1>
+</div>
+</div>
+</div>
+</body>
+</html>
